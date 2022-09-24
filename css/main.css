@@ -1,0 +1,329 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+div, a, p, span, input, form, ul, li, button {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+ul, li {
+    display: block;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 40px;
+    padding-bottom: 103px;
+    background: #1F98F0;
+    color: #fff;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__logo {
+    font-size: 31px;
+}
+
+.nav__menu {
+    padding-top: 10px;
+    padding-right: 100px;
+}
+
+.nav__item {
+    color: #fff;
+    padding-right: 50px;
+    font-size: 24px;
+    opacity: 0.77;
+}
+
+.nav__item.active {
+    opacity: 1;
+    
+}
+
+.nav__btn {
+    padding-top: 10px;
+}
+
+.btn__nav {
+    padding: 15px 30px 15px 30px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro__wrapper {
+    padding-top: 232px;
+    width: 490px;
+}
+
+.intro__title {
+    font-size: 51px;
+}
+
+.intro__paragraph {
+    font-size: 20px;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.intro__buttons {
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.offer {
+    padding-top: 80px;
+    position: relative;
+}
+
+.offer__screen {
+    padding-right: 61px;
+}
+
+.offer__firstFigure {
+    position: absolute;
+    top: 65px;
+    left: 328px;
+}
+
+.offer__secondFigure {
+    position: absolute;
+    top: 621px;
+    left: -88px;
+}
+
+.about {
+    padding-top: 63px;
+    padding-bottom: 79px;
+}
+
+.cooperation {
+    font-size: 21px;
+}
+
+.cooperation__company {
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features {
+    display: flex;
+}
+
+.features__offer {
+    padding-top: 112px;
+}
+
+.features__info {
+    padding-top: 203px;
+    padding-left: 191px;
+}
+
+.features__title {
+    font-size: 38px;
+}
+
+.features__text {
+    padding-top: 50px;
+    position: relative;
+    display: flex;
+}
+
+.features__circle {
+    z-index: 1;
+}
+
+.features__ellipse {
+    position: absolute;
+    top: 45px;
+}
+
+.features__wrapper {
+    padding-left: 20px;
+}
+
+.features__about {
+    font-size: 21px;
+}
+
+.features__subtext {
+    padding-top: 20px;
+    opacity: 0.7;
+}
+
+.testimonials {
+    padding-top: 101px;
+}
+
+.testimonials__title {
+    text-align: center;
+}
+
+.testimonials__blocks {
+    padding-top: 80px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.testimonials__blockTitle {
+    font-size: 21px;
+}
+
+.testimonials__paragraph {
+    width: 260px;
+    color: #03101A;
+    opacity: 0.7;
+}
+
+.download {
+    padding-top: 107px;
+    padding-bottom: 112px;
+    background: #1F98F0;
+    color: #fff;
+}
+
+.downloadNow {
+    display: flex;
+}
+
+.downloadNow__title {
+    font-size: 38px;
+    padding-left: 15px;
+}
+
+.downloadNow__btn {
+    margin-left: 400px;
+    padding: 20px 49px;
+    border-radius: 10px;
+    background: #fff;
+    color: #1F98F0;
+}
+
+.update {
+    padding-top: 120px;
+    padding-bottom: 128px;
+}
+
+.update__title {
+    font-size:  38px;
+    text-align: center;
+}
+
+.update__blocks {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.update__blockTitle {
+    padding-top: 25px;
+    font-size: 28px;
+}
+
+.update__paragraph {
+    padding-top: 15px;
+    width: 327px;
+    color: #6D7073;
+    opacity: 0.7;
+}
+
+.update__link {
+    padding-top: 30px;
+    font-size: 18px;
+    color: #1F98F0;
+}
+
+.footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #fff;
+    background: #03101A;
+}
+
+.footer__nav {
+    display: flex;
+}
+
+.footer__title {
+    font-size: 31px;
+}
+
+.footer__paragraph {
+    padding-top: 35px;
+    width: 327px;
+    opacity: 0.7;
+}
+
+.footer__blocks {
+    display: flex;
+}
+
+.footer__block {
+    padding-left: 64px;
+}
+
+.footer__blockTitle {
+    font-size: 21px;
+    padding-bottom: 35px;
+}
+
+.footer__subtitle {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__list {
+    padding-bottom: 15px;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.footer__blockTitleLast {
+    font-size: 21px;
+    padding-bottom: 25px;
+}
+
+.footer__form {
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.footer__input {
+    width: 229px;
+    font-family: 'Lato', sans-serif;
+    color: #03101A;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+}
+
+.footer__btn {
+    padding: 10px 36px;
+    background: #1F98F0;
+    color: #fff;
+    border: none;
+}
